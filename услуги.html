@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Услуги</title>
+	<link rel="shortcut icon" href="https://psv4.userapi.com/c536132/u196766048/docs/d37/40aed948b143/Dobavit_osnovnoy_text-removebg-preview.png?extra=LMuWXx3LIiftEpTaZzKfnwjnE65UjJs61i8TcaNjsCFiNPjTGsrSPIN6LHGM3Gm1oAtdN5OrenxFUeOiPFeiUZIMq9cjYRgSSDE1cHm1INel0EHqBzlVJ92T9VLq4LPAYKt9XELWlNhRYFzGMQ8HqrNG9g"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<style type="text/css">
+		body {
+		background-color:#42424d; 
+		width-overflow: hidden;
+		}
+
+		@import url('https://fonts.googleapis.com/css?family=Arimo');
+		.top-menu {
+  		position: relative;
+  		background: rgba(34,34,34,.2);
+				}
+		.menu-main {
+		  list-style: none;
+		  margin: 0;
+		  padding: 0;
+		}
+		.menu-main:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		.left-item {float: left;}
+		.right-item {float: right;}
+		.navbar-logo {
+		  position: absolute;
+		  left: 50%;
+		  top: 50%;
+		  transform: translate(-50%,-50%);
+		}
+		.menu-main a {
+		  text-decoration: none;
+		  display: block;
+		  line-height: 80px;
+		  padding: 0 20px;
+		  font-size: 18px;
+		  letter-spacing: 2px;
+		  font-family:Century Gothic;
+		  font-weight: bold;
+		  color: white;
+		  transition: .3s linear;
+		}
+		.menu-main a:hover {background: rgba(0,0,0,.3);}
+		@media (max-width: 830px) {
+		.menu-main {
+		  padding-top: 90px;
+		  text-align: center;
+		}
+		.navbar-logo {
+		  position: absolute;
+		  left: 50%;
+		  top: 10px;
+		  transform: translateX(-50%);
+		}
+		.menu-main li {
+		  float: none;
+		  display: inline-block;
+		}
+		.menu-main a {
+		  line-height: normal;
+		  padding: 20px 15px;
+		  font-size: 16px;
+		}
+		}
+		@media (max-width: 630px) {
+		.menu-main li {display: block;}
+		}
+
+		.text{
+		    font-family:Century Gothic;
+		    margin-top: 3%;
+		    margin-left: 3%;
+			font-size: 50px;
+			width: 50%;
+			display: flex;
+			font-weight: bold;
+
+		}
+
+		.text1 {
+			font-family:Century Gothic;
+			font-size: 34px;
+			display: flex;
+			margin-top: 3%;
+		    margin-left: 3%;
+		}
+
+		.text2 {
+			font-family:Century Gothic;
+			font-size: 20px;
+			display: flex;
+			width: 800px;
+			margin-top: 3%;
+			margin-left: 3%;
+		}
+
+		.fon{
+			display: inline-block;
+			width: 100%;
+			height: 2100px;
+			background-color: white;
+
+		}
+
+
+				/* Main Footer */
+		footer .main-footer{ padding: 20px 0; background: #252525;}
+		footer ul{ padding-left: 0; list-style: none;}
+
+/* Copy Right Footer */
+		.footer-copyright { background: #222; padding: 5px 0;}
+		.footer-copyright .logo { display: inherit;}
+		.footer-copyright nav { float: right; margin-top: 5px;}
+		.footer-copyright nav ul { list-style: none; margin: 0; padding: 0;}
+		.footer-copyright nav ul li { border-left: 1px solid #b035a4; display: inline-block; line-height: 12px; margin: 0; padding: 0 8px;}
+		.footer-copyright nav ul li a{ color: #b035a4;}
+		.footer-copyright nav ul li:first-child { border: medium none; padding-left: 0;}
+		.footer-copyright p { color: #969696; margin: 2px 0 0;}
+
+/* Footer Top */
+		.footer-top{ background: #252525; padding-bottom: 30px; margin-bottom: 30px; border-bottom: 3px solid #222;}
+
+/* Footer transparent */
+		footer.transparent .footer-top, footer.transparent .main-footer{ background: transparent;}
+		footer.transparent .footer-copyright{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
+
+/* Footer light */
+		footer.light .footer-top{ background: #f9f9f9;}
+		footer.light .main-footer{ background: #f9f9f9;}
+		footer.light .footer-copyright{ background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}
+
+/* Footer 4 */
+		.footer- .logo { display: inline-block;}
+
+/*====================  
+  Widgets  
+====================== */
+		.widget{ padding: 20px; margin-bottom: 40px;}
+		.widget.widget-last{ margin-bottom: 0px;}
+		.widget.no-box{ padding: 0; background-color: transparent; margin-bottom: 40px;
+  	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
+		.widget.subscribe p{ margin-bottom: 18px;}
+		.widget li a{ color: #b035a4;}
+		.widget li a:hover{ color: #4b92dc;}
+		.widget-title {margin-bottom: 20px;}
+		.widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
+		.widget-title span::after {background: inherit;content: "";height: inherit; position: absolute;top: -4px;width: 50%;}
+		.widget-title.text-center span,.widget-title.text-center span::after {margin-left: auto;margin-right:auto;left: 0;right: 0;}
+			.widget .badge{ float: right; background: #b035a4;}
+
+.typo-light h1,  
+.typo-light h2,  
+.typo-light h3,  
+.typo-light h4,  
+.typo-light h5,  
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small{ color: #fff;}
+
+ul.social-footer2 { margin: 0;padding: 0; width: auto;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+ul.social-footer2 li a:hover {background-color:#b035a4;}
+ul.social-footer2 li a {display: block; height:30px;width: 30px;text-align: center;}
+.btn{background-color: #b035a4; color:#fff;}
+.btn:hover, .btn:focus, .btn.active {background: #b035a4;color: #fff;
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+transition: all 250ms ease-in-out 0s;
+
+}
+
+* {box-sizing:border-box}
+
+/* контейнер слайдшоу */
+	.slideshow-container {
+  		max-width: 1000px;
+  		position: relative;
+  		margin-left: 70%;
+  		margin-top: -95%;
+}
+
+	.mySlides {
+    	display: none;
+}
+
+	.active, .dot:hover {
+  		background-color: #717171;
+}
+
+/* анимация пропадания */
+	.fade {
+  		-webkit-animation-name: fade;
+  		-webkit-animation-duration: 2s;
+  		animation-name: fade;
+  		animation-duration: 2s;
+}
+
+	@-webkit-keyframes fade {
+  		from {opacity: .4}
+  		to {opacity: 1}
+}
+
+	@keyframes fade {
+  		from {opacity: .4}
+		to {opacity: 1}
+}
+
+/* миниатюра на странице, изображение которое открывается при нажатии */
+#myImg {
+	margin-top: 7%;
+	margin-left: 70%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* изображение в миниатюре на странице */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* положение увеличенного изображения */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* текст изображения */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* анимация увеличения */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* кнопка закрыть */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* изображение на весь экран */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+	</style>
+</head>
+<body>
+	<nav class="top-menu">
+  <ul class="menu-main">
+    <li class="left-item"><a href="о нас.html">О нас</a></li>
+    <li class="left-item"><a href="услуги.html">Услуги</a></li>
+    <li class="left-item"><a href="прайс.html">Прайс</a></li>
+    <li class="right-item"><a href="https://www.instagram.com/tomas_pirser/">Портфолио</a></li>
+    <li class="right-item"><a href="контакты.html">Контакты</a></li>
+</ul>
+  <a class="navbar-logo" href="главная.html"><img src="https://i.ibb.co/zPSZttm/removebg-preview.png" alt="removebg-preview" border="0" width="110" height="110"></a>
+</nav>
+<div class="fon">
+<div class="text">Моя работа заключается в следующих видах пирсинга: </div>
+<div class="text1">Пирсинг мочки </div>
+<div class="text2">Этот вид прокола наиболее востребованный и распространенный. Я не делаю пирсинг "пистолетом", использую только иглы лазерной заточки. Так что Ваши ушки заживут быстро без проблем и осложнений. 
+Средний период заживления мочки уха – 8-12 недель, хрящей – 6-10 месяцев.</div>
+<div class="text1">Пирсинг хряща </div>
+<div class="text2">Это вид пирсинга, который заключается в прокалывании хрящевой ткани уха, его виды очень разнообразны и все они смотрятся очень красиво.
+Средний период заживления хрящей составляет – 6-10 месяцев.</div>
+<div class="text1">Пирсинг носа</div>
+<div class="text2">Основных вида всего два, "септум" - прокол тонкой ткани на перегородке носа и "нострил" - прокол крыла носа. Также я выполняю прокол переносицы, так называемый "бридж".
+Период заживления: 2-4 недели нострил, 4-6 недель – септум, 6-8 недель - бридж.</div>
+<div class="text1">Пирсинг пупка</div>
+<div class="text2">Прокол выполняется в складке кожи над или под пупком.
+Период заживления составляет 6-10 месяцев.</div>
+<div class="text1">Пирсинг брови</div>
+<div class="text2">Прокол может быть один или несколько. Прокалывается внешний край брови.
+Период заживления 4-6 недель.</div>
+<div class="text1">Пирсинг губ</div>
+<div class="text2">Один из самых вариативных видов пирсинга. Его виды: "монро" - прокол верхней губы слева, "мадонна" - прокол верхней губы справа, "медуза" - пирсинг верхней губы по центру, также есть варианты прокола нижней губы.
+Проколы губ заживают довольно быстро, но нужно быть готовым к некоторым неудобствам, которые связаны с приемом пищи и речью пока не привыкнете. Период заживления 3-4 недели.</div>
+<div class="text1">Пирсинг языка</div>
+<div class="text2">Пирсинг выполняется посередине языка, перед уздечкой под ним. При прокалывании языка не страдают вкусовые рецепторы и после полного заживления не возникают деффекты речи. 
+Период заживления – от 3 до 5 недель.</div>
+
+<div class="slideshow-container">
+
+  
+  <div class="mySlides fade">
+    <img src="https://sun9-53.userapi.com/impg/b5XADiANFa6-8BDpje3_bThZ8Ki8iqW540ynYA/8Qay967wDCQ.jpg?size=390x390&quality=96&sign=7b8aa245b005b9d87e9929a6cf0dbb6b&type=album" style="width:70%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://tattooclassic.ru/wp-content/uploads/2020/01/uho-tekst-1024x1024.jpg" style="width:70%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://static-sl.insales.ru/files/1/6458/16841018/original/IMG_20210425_131530_527.jpg" style="width:70%">
+  </div>
+
+</div>
+
+<img id="myImg" src="https://tatueskiz.ru/wp-content/uploads/2019/11/pirsing-nosa19.jpg" alt="всевозможные вариации пирсинга носа" style="width:100%;max-width: 400px">
+
+<div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+
+</div>
+
+
+
+<footer id="footer" class="footer-1">
+<div class="main-footer widgets-dark typo-light">
+<div class="container">
+<div class="row">  
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget subscribe no-box">
+<h5 class="widget-title">Пирсинг Новосибирск<span></span></h5>
+</div>
+<h5 class="widget-title"><a target="_blank" href="https://www.instagram.com/shuffled_god/">ph by Anatoly Biluta</a><span></span></h5>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title">Быстрая навигация<span></span></h5>
+<ul class="thumbnail-widget">
+<li>
+<div class="thumb-content"><a href="главная.html">Главная</a></div>
+</li>
+<li>
+<div class="thumb-content"><a href="о нас.html">О нас</a></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="услуги.html">Услуги</a></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="прайс.html">Прайс</a></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="https://www.instagram.com/tomas_pirser/">Портфолио</a></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="контакты.html">Контакты</a></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="https://www.instagram.com/olga_cifrina/">Каталог</a></div>  
+</li>
+</ul>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget no-box">
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title">Контакты<span></span></h5>
+<ul class="social-footer2">
+<li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/tomas_pirser/"><img alt="instagram" width="30" height="30" src="https://cdn.icon-icons.com/icons2/836/PNG/512/Instagram_icon-icons.com_66804.png"></a></li>
+</ul>
+<ul class="social-footer2">8-913-713-83-51</ul>
+</div>
+</div>
+</div>
+</div>
+</div>  
+<div class="footer-copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+<p>Пирсинг Новосибирск © 2021. создано двумя не очень умными студентами.</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
+
+<script type="text/javascript">	
+	var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); 
+}
+
+var modal = document.getElementById('myModal');
+
+// альтернативный текст
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+// клик по кнопке закрыть
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
